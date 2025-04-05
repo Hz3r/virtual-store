@@ -1,0 +1,17 @@
+# Node
+node_modules/
+.env
+dist/
+.DS_Store
+
+# Logs
+*.log
+
+# Astro
+.astro/
+
+# VS Code
+.vscode/
+
+# Sistema (Windows y Mac)
+Thumbs.db
