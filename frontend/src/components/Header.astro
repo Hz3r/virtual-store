@@ -1,0 +1,16 @@
+---
+import Navbar from "./Navbar.jsx";
+import Cart from "./Cart.jsx";
+---
+
+<header class="bg-purple-950 flex justify-between items-center px-3 h-14">
+  <div class="flex gap-3">
+    <Navbar client:load />
+    <span> StreamEase </span>
+  </div>
+
+  <div class="flex gap-5">
+    <Cart client:load/>
+    <button class="bg-blue-700 px-3 py-1 rounded-lg cursor-pointer"> Login </button>
+  </div>
+</header>
